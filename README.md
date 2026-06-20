@@ -55,6 +55,14 @@ Below is an extraction of the active POA&M tracking high-priority gaps discovere
       <td><span style="color:red;"><b>Not Started</b></span></td>
     </tr>
     <tr>
+      <td><b>3.4.1</b> (CM)</td>
+      <td>Establish and maintain baseline configurations and inventories of organizational systems throughout the respective system development lifecycles.</td>
+      <td>No centralized, authorized baseline exists for engineering workstations. Engineers routinely install ad-hoc software variants, creating configuration drift.</td>
+      <td>• Establish a formal Change Control Board (CCB).<br>• Deploy Microsoft Intune to enforce standardized configuration baselines and block unapproved software.</td>
+      <td>Q4 2026</td>
+      <td><span style="color:orange;"><b>In Progress</b></span></td>
+    </tr>
+    <tr>
       <td><b>3.5.3</b> (IA)</td>
       <td>Use multifactor authentication (MFA) for local and network access to privileged accounts and for network access to non-privileged accounts.</td>
       <td>MFA is enforced for remote VPN access, but is completely missing for internal local workstation network logins.</td>
@@ -62,9 +70,16 @@ Below is an extraction of the active POA&M tracking high-priority gaps discovere
       <td>Q2 2026</td>
       <td><span style="color:green;"><b>Completed</b></span></td>
     </tr>
+    <tr>
+      <td><b>3.8.3</b> (MP)</td>
+      <td>Sanitize or destroy information system media containing CUI before disposal or release for reuse.</td>
+      <td>Decommissioned hard drives from engineering machines are stored in an unlocked IT closet without tracking or formal sanitization records.</td>
+      <td>• Implement a secure, locked media disposal bin.<br>• Mandate NIST 800-88 R1 compliant physical destruction/degaussing and require signed Certificates of Destruction for all assets.</td>
+      <td>Q2 2026</td>
+      <td><span style="color:green;"><b>Completed</b></span></td>
+    </tr>
   </tbody>
 </table>
-
 ---
 
 ## 🗺️ System Security Plan (SSP) Baseline Framework
