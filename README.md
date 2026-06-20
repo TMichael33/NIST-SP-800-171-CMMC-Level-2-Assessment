@@ -1,20 +1,20 @@
 # Project 2: NIST SP 800-171 & CMMC Level 2 Assessment
 
-## 🛡️ Executive Summary
+##  Executive Summary
 This project simulates a comprehensive gap analysis and readiness assessment for a mid-sized aerospace component manufacturer ("Titan Aerospace") preparing for a Cybersecurity Maturity Model Certification (CMMC) Level 2 third-party audit. Titan Aerospace handles Controlled Unclassified Information (CUI) and must demonstrate 100% implementation of the 110 controls defined in NIST SP 800-171. 
 
 The objective of this project was to establish a System Security Plan (SSP) baseline, identify critical gaps in the **Access Control (AC)** and **Audit & Accountability (AU)** domains, and generate a formal Plan of Action and Milestones (POA&M) to achieve full audit readiness.
 
 ---
 
-## 📋 Methodology & Assessment Scope
+##  Methodology & Assessment Scope
 The assessment was conducted against the 14 families of NIST SP 800-171. Controls were scored using a binary model:
 *   **Compliant (C):** The control is fully implemented, documented in the SSP, and supported by artifacts.
 *   **Non-Compliant (NC):** A gap exists. The control must be deferred to the POA&M with a defined remediation path and target date.
 
 ---
 
-## 📝 Plan of Action and Milestones (POA&M)
+##  Plan of Action and Milestones (POA&M)
 
 Below is an extraction of the active POA&M tracking high-priority gaps discovered during the assessment. 
 
@@ -82,7 +82,7 @@ Below is an extraction of the active POA&M tracking high-priority gaps discovere
 </table>
 ---
 
-## 🗺️ System Security Plan (SSP) Baseline Framework
+##  System Security Plan (SSP) Baseline Framework
 To achieve audit readiness, an artifact index was established to serve as the baseline evidence for the upcoming CMMC assessment:
 1.  **Access Control Policy (v2.1):** Outlines the corporate rules for individual accountability and authorization constraints.
 2.  **Network Architecture Diagram (Sanitized):** Documents the boundaries of the CUI environment (Federal boundary isolation).
@@ -90,7 +90,7 @@ To achieve audit readiness, an artifact index was established to serve as the ba
 
 ---
 
-## 💡 Key Insights & Business Alignment
+##  Key Insights & Business Alignment
 1.  **POA&M Accountability:** In defense contracting, a POA&M isn't just a basic to-do list; it is a legally binding compliance roadmap. If a contractor self-attests to compliance but fails to meet their POA&M target dates, they face substantial operational and legal liabilities under the False Claims Act.
 2.  **Balancing Security and Production:** Revoking local administrator rights (Control 3.1.2) frequently creates pushback from production teams. The remediation strategy leverages an enterprise PIM solution to provide Just-In-Time (JIT) access elevation, allowing engineers to maintain speed while meeting compliance criteria.
 3.  **Continuous Monitoring (ConMon):** Meeting CMMC Level 2 requirements is not a "one-and-done" checkbox audit. Centralizing logs via a SIEM architecture (Control 3.3.1) changes the organizational posture from a static annual audit compliance view to a dynamic, continuous monitoring model.
